@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Viagens - Agência de Turismo | Pacotes Nacionais e Internacionais 2026</title>
+    <meta name="description" content="Descubra o mundo com a Mundo Viagens. Oferecemos os melhores pacotes de turismo nacionais e internacionais para 2026. Viaje com segurança e conforto.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <i class="bi bi-airplane-engines-fill me-2 fs-4"></i>
+                <span class="fw-bold">Ks| </span>Agência de Turismo
+                
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinos.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="depoimentos.html">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container text-center text-white">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="hero-title mb-4 fade-in-up">Descubra o mundo com a gente</h1>
+                        <p class="hero-subtitle mb-5 fade-in-up delay-1">Pacotes exclusivos nacionais e internacionais para você viajar em 2026</p>
+                        <a href="destinos.html" class="btn btn-cta btn-lg fade-in-up delay-2">
+                            <i class="bi bi-compass me-2"></i>Ver Pacotes
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <i class="bi bi-chevron-down"></i>
+        </div>
+    </section>
+
+   <!-- Depoimentos Section -->
+    <section id="depoimentos" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title reveal-up">O que nossos clientes dizem</h2>
+                    <p class="section-subtitle reveal-up">Experiências reais de quem já viajou conosco</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-card text-center">
+                                    <div class="testimonial-avatar mb-3">
+                                        <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cliente 1" class="rounded-circle">
+                                    </div>
+                                    <blockquote class="blockquote mb-3">
+                                        <p>"A viagem para Paris foi simplesmente perfeita! Cada detalhe foi cuidadosamente planejado. Recomendo a Mundo Viagens para todos que desejam uma experiência inesquecível."</p>
+                                    </blockquote>
+                                    <cite class="d-block">
+                                        <strong>Ana Silva</strong>
+                                        <small class="text-muted d-block">São Paulo, SP</small>
+                                    </cite>
+                                    <div class="stars mt-2">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center">
+                                    <div class="testimonial-avatar mb-3">
+                                        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cliente 2" class="rounded-circle">
+                                    </div>
+                                    <blockquote class="blockquote mb-3">
+                                        <p>"Fernando de Noronha superou todas as expectativas! A organização foi impecável e o suporte durante toda a viagem foi excepcional. Já estamos planejando a próxima!"</p>
+                                    </blockquote>
+                                    <cite class="d-block">
+                                        <strong>Carlos Mendes</strong>
+                                        <small class="text-muted d-block">Rio de Janeiro, RJ</small>
+                                    </cite>
+                                    <div class="stars mt-2">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center">
+                                    <div class="testimonial-avatar mb-3">
+                                        <img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cliente 3" class="rounded-circle">
+                                    </div>
+                                    <blockquote class="blockquote mb-3">
+                                        <p>"Lua de mel nas Maldivas foi um sonho realizado! O atendimento personalizado e a atenção aos detalhes fizeram toda a diferença. Gratidão eterna!"</p>
+                                    </blockquote>
+                                    <cite class="d-block">
+                                        <strong>Marina & João</strong>
+                                        <small class="text-muted d-block">Belo Horizonte, MG</small>
+                                    </cite>
+                                    <div class="stars mt-2">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+    
+   
+
+    
+   
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-logo mb-3">
+                        <i class="bi bi-airplane-engines-fill me-2 fs-4"></i>
+                        <span class="fw-bold fs-5">Mundo Viagens</span>
+                    </div>
+                    <p>Transformando sonhos em realidade através de experiências de viagem inesquecíveis desde 2009.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter-x fs-5"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-youtube fs-5"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="mb-3">Links Rápidos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-light text-decoration-none">Início</a></li>
+                        <li><a href="#destinos" class="text-light text-decoration-none">Destinos</a></li>
+                        <li><a href="#sobre" class="text-light text-decoration-none">Sobre Nós</a></li>
+                        <li><a href="#contato" class="text-light text-decoration-none">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="mb-3">Destinos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Europa</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Ásia</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">América do Norte</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Brasil</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="mb-3">Contato</h6>
+                    <div class="contact-info">
+                        <p class="mb-2">
+                            <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
+                            Av. Paulista, 1000 - São Paulo, SP
+                        </p>
+                        <p class="mb-2">
+                            <i class="bi bi-telephone-fill me-2 text-primary"></i>
+                            (11) 3333-4444
+                        </p>
+                        <p class="mb-2">
+                            <i class="bi bi-envelope-fill me-2 text-primary"></i>
+                            contato@mundoviagens.com.br
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                   
+                    <p class="mb-0">&copy; 2025 Ks|Agência de Turismo. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">
+                        <a href="#" class="text-light text-decoration-none">Desenvolvimento DG |  </a>
+                        <a href="#" class="text-light text-decoration-none me-3">Política de Privacidade</a>
+                        <a href="#" class="text-light text-decoration-none">Termos de Uso</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
